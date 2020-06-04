@@ -115,4 +115,11 @@ library(remotes)
 install_github("nimble-dev/compareMCMCs", subdir = "compareMCMCs", INSTALL_opts = "--no-multiarch")
 ```
 
+`compareMCMCs` can run JAGS via a plugin, but first you need to install JAGS. See [JAGS homepage][http://mcmc-jags.sourceforge.net/] for platform based instructions. The plugin also need the `rjags` package:
+
+```
+install.packages("rjags")
+```
+
+
 
